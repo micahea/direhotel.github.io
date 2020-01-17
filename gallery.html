@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="css/gallerystyle.css">
+    <script src="jquery-2.1.1.min.js">
+    </script>
+    <script type="text/javascript" >
+      $(window).on('scroll',function(){
+        if ($(window).scrollTop()){
+          $('nav').addClass('black')
+        }
+        else {
+          $('nav').removeClass('black')
+        }
+
+      })
+    </script>
+  </head>
+  <body>
+    <div class="wrapper">
+
+
+    <nav>
+      <div class="logo">
+      <img src="img/lolo.png" alt="logo" >
+        </div>
+        <ul>
+          <li><a href="index.html" >HOME</a></li>
+          <li><a href="gallery.html" class="active">Gallery</a></li>
+          <li><a href="service.html">services</a></li>
+          <li><a href="room.html">Room</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">contct us</a></li>
+                  </ul>
+    </nav>
+      <div class="container">
+          <div class="box a">
+          <img src="img/img1.jpg" alt="">
+          <p>image from image</p>
+        </div>
+          <div class="box b">
+          <img src="img/img2.jpg" alt="">
+        </div>
+          <div class="box c">
+          <img src="img/img3.jpg" alt="">
+        </div>
+          <div class="box d">
+          <img src="img/img4.jpg" alt="">
+        </div>
+          <div class="box e">
+          <img src="img/img5.jpg" alt="">
+        </div>
+          <div class="box f">
+          <img src="img/img6.jpg" alt="">
+        </div>
+          <div class="box g">
+          <img src="img/img7.jpg" alt="">
+        </div>
+          <div class="box h">
+          <img src="img/img8.jpg" alt="">
+        </div>
+          <div class="box i">
+          <img src="img/img9.jpg" alt="">
+        </div>
+          <div class="box j">
+          <img src="img/img11.jpg" alt="">
+        </div>
+          <div class="box k">
+          <img src="img/img12.jpg" alt="">
+        </div>
+          <div class="box l">
+          <img src="img/img13.jpg" alt="">
+        </div>
+          <div class="box m">
+          <img src="img/img14.jpg" alt="">
+        </div>
+          <div class="box n">
+          <img src="img/img15.jpg" alt="">
+        </div>
+
+        </div>
+
+      </div>
+  </body>
+</html>

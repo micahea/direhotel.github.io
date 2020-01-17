@@ -1,0 +1,70 @@
+html, body{
+	font-size: 100%;
+    font-family: 'Raleway', sans-serif;
+    background: url(../img/img12.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.header{
+font-weight: bold;
+font-family: cursive;
+
+}
+.header h1{
+  position: absolute;
+  font-size: 40px;
+  top:10px;
+  left: 35%;
+}
+.header h2{
+  position: absolute;
+
+  top:14%;
+  left: 35%;
+}
+/* .form{
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size:cover;
+  padding: 20px;
+
+} */
+ /* .form ul li{
+  list-style: none;
+  color: #fff;
+  font-weight: bold;
+} */
+/* input[type=text], select {
+  position: relative;
+  color: #333;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  border-spacing: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+} */
+
+input[type=submit] {
+  width: 40%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 14px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  left: 90px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+}
